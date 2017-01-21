@@ -5,6 +5,6 @@ $(document).ready(function () {
         if (!audio) return;
         audio.currentTime = 0; //rewind the key to the start, can hit key multiple time
         audio.play();
-        $(key).addClass('playing');
+        key.classList.add('playing');
     })
 });
